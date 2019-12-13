@@ -1,0 +1,26 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css);
+.jumbotron{
+    background-image: url(../img/pizza2.jpeg);
+}
+h1{
+    color: rgb(8, 209, 18);
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-weight: 600px;
+    text-align: center;
+    line-height: 100px;
+    padding-top: 10px;
+}
+#text{
+    background: black;
+}
+#navigation{
+    display: inline;
+    color: rgb(8, 209, 18);
+    font-size: 50px;
+    font-family: 'Gochi Hand', cursive;
+    text-align: center;
+#waiter{
+    border: solid black 2px;
+}
