@@ -18,25 +18,16 @@
   <body>
         <div class="container">
           <div class="navigation-bar">
-            <ul>
-              <li>
-                <a class="navigation-bar_element_link" href="./index.html">Home</a>
-              </li>
-              <li>
-                <a class="navigation-bar_element_link" href="./about.html">About</a>
-              </li>
-            </ul>
-          </div>
           <div class="card">
-            <div class="webpage-header">
-              <h1 class="webpage-header_element_title">KrysTal CRunCh Pizza</h1>
+            <div class="header">
+              <h1 class="header_element_title">KrysTal CRunCh Pizza</h1>
             </div>
             <form id="placeOrder">
               <div class="form-section">
                 <div class="row">
                   <div class="col-md-3 form-group">
                     <label for="pizza-size">various pizza Sizes</label>
-                    <select name="pizza-size" class="form-control" id="pizza-size">
+                    <select name="pizza-size" class="form-control" id="Size">
                       <option value="0">Choose size</option>
                       <option value="800">Small - ksh800</option>
                       <option value="1000">Medium - ksh1000</option>
@@ -45,7 +36,7 @@
                   </div>
                   <div class="col-md-3 form-group">
                     <label for="crust-type">Crust types</label>
-                    <select name="crust-type" class="form-control" id="crust-type">
+                    <select name="crust-type" class="form-control" id="available-Crusts">
                       <option value="0">Choose your crusts</option>
                       <option value="900">Crispy crust - ksh900</option>
                       <option value="1000">Vegeterian crust - ksh1000</option>
@@ -59,7 +50,7 @@
                     <select
                       name="pizza-toppings"
                       class="form-control"
-                      id="pizza-toppings"
+                      id="toppings"
                     >
                       <option value="0">Today's toppings</option>
                       <option value="500">Pepperoni - ksh500</option>
@@ -75,12 +66,12 @@
                     </select>
                   </div>
                   <div class="col-md-3 form-group">
-                    <label for="pizza-quantity">Number of pizza ordered</label>
+                    <label for="quantity">Number of pizza ordered</label>
                     <input
                       type="number"
-                      name="pizza-quantity"
+                      name="quantity"
                       class="form-control"
-                      id="pizza-quantity"
+                      id="quantity"
                       placeholder="Choose quantity"
                     />
                   </div>
@@ -106,8 +97,8 @@
                   <p>
                     <img
                       class="pic"
-                      src="./img/you-want-some-pizza.png"
-                      alt="You want some Pizza?"
+                      src="./img/icon1.jpeg"
+                      alt="get your Pizza?"
                     />
                   </p>
                 </div>
@@ -115,8 +106,8 @@
                   <p>
                     <img
                       class="pic"
-                      src="./img/you-want-some-pizza.png"
-                      alt="You want some Pizza?"
+                      src="./img/icon1.jpeg"
+                      alt="?"
                     />
                   </p>
                 </div>
@@ -124,16 +115,15 @@
                   <p>
                     <img
                       class="pic"
-                      src="./img/you-want-some-pizza.png"
+                      src="./img/icon1.jpeg"
                       alt="You want some Pizza?"
-                    />
+                    /> -->
                   </p>
-                </div>
+                </div> 
               </div>
             </div>
-            
-            <div class="page-caption">
-              <p class="page-caption_element_caption">
+            <div class="caption">
+              <p class="caption_element_caption">
                 Pick your order<em> here</em> or have the one-off
                 <strong>Krystal crunch</strong> delivery at home
                 <em>location</em>
@@ -146,6 +136,6 @@
             </p>
           </div>
         </div>
-        <script src="./js/jquery-3.4.1.min.js"></script>
+        <script src="./js/jquery-3.4.1.js"></script>
 </body>
 </html>
