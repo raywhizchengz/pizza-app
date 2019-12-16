@@ -14,7 +14,8 @@
  https://raywhizchengz.github.io/pizza-app.github.io/
  ###### LICENSE
  MIT License
-
+ ####### CODEBEAT
+ [![codebeat badge](https://codebeat.co/badges/0297cc53-dd65-455c-b0cd-35125085d6b4)](https://codebeat.co/projects/github-com-raywhizchengz-pizza-app-github-io-master)
 Copyright (c) 2019 Ray Chengole
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
