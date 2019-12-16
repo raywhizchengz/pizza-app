@@ -1,0 +1,31 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css);
+body{
+    background-image: url(../img/waiter.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    font:green;
+}
+h1{
+    color: rgb(8, 209, 18);
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 10px;
+    font-size: 100px;
+    font-weight: 600px;
+    text-align: center;
+    padding-top: 10px;
+}
+.footer-section{
+    text-align: center;
+    font-size: 40px;
+}
+#placeOrder{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Pacifico', cursive;
+}
+button{
+    height: 60px;
+    width: 100px;
+}
