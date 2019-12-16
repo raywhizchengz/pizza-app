@@ -43,7 +43,7 @@ $(document).ready(function() {
         alert(totalPrice);
 
         if (totalPrice > 0) {
-            alert("Your order is = ksh" + totalPrice);
+            alert("Your order is ksh" + totalPrice);
             var delivery = confirm(
             "For home delivery, an additional fee of 150 will be inccured. Would you like to proceed?"
             );
