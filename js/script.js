@@ -54,8 +54,8 @@ $(document).ready(function() {
                     );
                     if (location !== "") {
                     alert(
-                        "Your order will be delivered here: " +
-                        location +
+                        "Your order will be delivered to " +
+                        location + 
                         ". Thank you! Order again soon"
                     );
         
